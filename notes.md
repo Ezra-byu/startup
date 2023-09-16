@@ -10,3 +10,4 @@ Pulling from GitHub
 >➜  git fetch
 >➜  git status
 >➜  git pull
+That is all for now :shipit:
