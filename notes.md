@@ -3,11 +3,15 @@ This document contains useful tid bits of information. You can use the contents 
 ## Unit One
 ### Github: Pushing, pulling
 Pushing to GitHub
->➜  git add example.md
->➜  git commit -am "update"
->➜  git push
+```
+➜  git add example.md
+➜  git commit -am "update"
+➜  git push
+```
 Pulling from GitHub
->➜  git fetch
->➜  git status
->➜  git pull
-That is all for now :shipit:
+```
+➜  git fetch
+➜  git status
+➜  git pull
+```
+>That is all for now :shipit:
