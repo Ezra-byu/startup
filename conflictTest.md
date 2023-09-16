@@ -1,1 +1,0 @@
-The Arena of Nîmes is a Roman amphitheatre located in Nîmes.
