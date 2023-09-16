@@ -14,4 +14,5 @@ Pulling from GitHub
 ➜  git status
 ➜  git pull
 ```
->That is all for now :shipit:
+That is all for now. And remember
+>Todo lo puedo con Cristo que me fortalezca :shipit:
