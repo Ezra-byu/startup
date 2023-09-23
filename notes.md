@@ -20,4 +20,4 @@ That is all for now. And remember
 ### Elevator pitch
 >This is a fun multiplayer real time strategy game. Play with your friends and experience a sense of combat driven excitement. Each character plays as one member of an adventuring company, each with special abilities. They must all cooperate and use their different abilities to succeed and vanquish evil from the kingdom.
 ### Design Mockups
-![Stinger log in. First slide of the mockup.](/startup/images/log_in.png)
+![Stinger log in. First slide of the mockup.](/images/log_in.png)
