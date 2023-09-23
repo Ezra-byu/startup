@@ -21,6 +21,18 @@ That is all for now. And remember
 >This is a fun multiplayer real time strategy game. Play with your friends and experience a sense of combat driven excitement. Each character plays as one member of an adventuring company, each with special abilities. They must all cooperate and use their different abilities to succeed and vanquish evil from the kingdom.
 ### Design Mockups
 ![Stinger log in. First slide of the mockup.](/images/log_in.png)
-![Stinger log in. First slide of the mockup.](/images/game_state.png)
-![Stinger log in. First slide of the mockup.](/images/loading.png)
 ![Stinger log in. First slide of the mockup.](/images/select_player_class.png)
+![Stinger log in. First slide of the mockup.](/images/loading.png)
+![Stinger log in. First slide of the mockup.](/images/game_state.png)
+### Key features
+- Secure Https log in
+- select character to play and have the various stats displayed
+- player choice logged in database
+- Websockets see which players are currently requesting to join a game
+### Technologies
+- HTMl: Use HTML for the structure of the website.
+- CSS: create graphics in line with the mockups that I have attached
+- Javascript: use are register client side interaction
+- Database: store user choices 
+- Authentication: use and siplay users' usernames.
+- Websocket data for player staging (seeing which characters are requesting an open game and putting them together)
