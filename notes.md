@@ -16,3 +16,6 @@ Pulling from GitHub
 ```
 That is all for now. And remember
 >Todo lo puedo con Cristo que me fortalezca :shipit:
+## Miniquest
+### Elevator pitch
+>This is a fun multiplayer real time strategy game. Play with your friends and experience a sense of combat driven excitement. Each character plays as one member of an adventuring company, each with special abilities. They must all cooperate and use their different abilities to succeed and vanquish evil from the kingdom.
