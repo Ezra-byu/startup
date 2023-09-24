@@ -26,8 +26,8 @@ That is all for now. And remember
 ![Stinger log in. First slide of the mockup.](/images/game_state.png)
 ### Key features
 - Secure Https log in
-- select character to play and have the various stats displayed
-- player choice logged in database
+- Select character to play and have the various stats displayed
+- Player choice logged in database
 - Websockets see which players are currently requesting to join a game
 ### Technologies
 - HTMl: Use HTML for the structure of the website.
