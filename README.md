@@ -7,7 +7,20 @@
 ![Stinger log in. First slide of the mockup.](/images/select_player_class.png)
 ![Stinger log in. First slide of the mockup.](/images/loading.png)
 ![Stinger log in. First slide of the mockup.](/images/game_state.png)
-### HTML deliverable
+### Key features
+- Secure Https log in
+- Select character to play and have the various stats displayed
+- Player choice logged in database
+- Websockets see which players are currently requesting to join a game
+### Technologies
+- HTMl: Use HTML for the structure of the website.
+- CSS: create graphics in line with the mockups that I have attached
+- Javascript: use are register client side interaction
+- Database: store user choices 
+- Authentication: use and siplay users' usernames.
+- Websocket data for player staging (seeing which characters are requesting an open game and putting them together)
+## HTML deliverable
+CS 260
 - I added HTML pages for each component of your application, with links in the page menus.
 - I added application textual content via text boxes and content.
 - I added placeholders for 3rd party content on the Choose Character page (for character selection function) and the Play page (for playing function, which may remain as a place holder depending on how far I get)
