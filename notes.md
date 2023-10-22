@@ -33,7 +33,7 @@ That is all for now. And remember
 - HTMl: Use HTML for the structure of the website.
 - CSS: create graphics in line with the mockups that I have attached
 - Javascript: use are register client side interaction
-- Database: store user choices 
+- Database: store user choices
 - Authentication: use and siplay users' usernames.
 - Websocket data for player staging (seeing which characters are requesting an open game and putting them together)
 ## HTML deliverable
