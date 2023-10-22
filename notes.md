@@ -45,3 +45,11 @@ CS 260
 - I kept the Login placeholder, including user name display.
 - The database placeholder exists as functions of the character selection buttons
 - The websocket placeholder is the Websocket data for player staging (seeing which characters are requesting an open game and putting them together) which would run behind the scenes on the Hints page
+
+## CSS deliverable
+- I added a css style for Header, footer, and main content body
+- I added a CSS formatted nav bar on each page
+- I added a sticky footer and other elements to respond to window resizing
+- Elements of my application were updated with formatting
+- I added application specific text and images
+- Websocket/database placeholders
