@@ -35,3 +35,4 @@ CS 260
 - Elements of my application were updated with formatting
 - I added application specific text and images
 - Websocket placeholder
+## 

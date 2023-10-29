@@ -67,27 +67,27 @@ The following questions are examples of what you may see on the midterm exam:
 - What does the following code using map with an array output?
 - What does the following code output using getElementByID and addEventListener?
 - What does the following line of Javascript do using a # selector?
-- Which of the following are true? (mark all that are true about the DOM)
+- Which of the following are true? (mark all that are true about the DOM) (how does it actually form a heirarcahl representationf of the page)
 - By default, the HTML span element has a default CSS display property value of: 
 - How would you use CSS to change all the div elements to have a background color of red?
 - How would you display an image with a hyperlink in HTML?
 - In the CSS box model, what is the ordering of the box layers starting at the inside and working out?
-- Given the following HTML, what CSS would you use to set the text "troubl" to green and leave the "double" text  unaffected?
-- What will the following code output when executed using a for loop and console.log?
+- Given the following HTML, what CSS would you use to set the text "troubl" to green and leave the "double" text  unaffected? (use an ID, understand P-tag)
+- What will the following code output when executed using a for loop and console.log? (Understand console)
 - How would you use JavaScript to select an element with the id of “byu” and change the text color of that element to green?
-- What is the opening HTML tag for a paragraph, ordered list, unordered list, second level heading, first level heading, third level heading?
+- What is the opening HTML tag for a paragraph, ordered list, unordered list, second level heading, first level heading, third level heading? (understand what are the tags for all this, H1, P-tag)
 - How do you declare the document type to be html?
 - What is valid javascript syntax for if, else, for, while, switch statements?
 - What is the correct syntax for creating a javascript object?
-- Is is possible to add new properties to javascript objects?
-- If you want to include JavaScript on an HTML page, which tag do you use?
+- Is is possible to add new properties to javascript objects? (changing the classes of a javacript object at run time)
+- If you want to include JavaScript on an HTML page, which tag do you use? (script tag)
 - Given the following HTML, what JavaScript could you use to set the text "animal" to "crow" and leave the "fish" text unaffected?
 - Which of the following correctly describes JSON?
-- What does the console command chmod, pwd, cd, ls, vim, nano, mkdir, mv, rm, man, ssh, ps, wget, sudo  do?
+- What does the console command chmod, pwd, cd, ls, vim, nano, mkdir, mv, rm, man, ssh, ps, wget, sudo  do? (play around with commandline)
 - Which of the following console command creates a remote shell session?
 - Which of the following is true when the -la parameter is specified for the ls console command?
 - Which of the following is true for the domain name banana.fruit.bozo.click, which is the top level domain, which is - a subdomain, which is a root domain?
-- Is a web certificate is necessary to use HTTPS.
+- Is a web certificate is necessary to use HTTPS. (understand how a connection with secure shell works. Broweser <-> Server https diagram)
 - Can a DNS A record can point to an IP address or another A record.
 - Port 443, 80, 22 is reserved for which protocol?
 - What will the following code using Promises output when executed?
