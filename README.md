@@ -35,4 +35,8 @@ CS 260
 - Elements of my application were updated with formatting
 - I added application specific text and images
 - Websocket placeholder
-## 
+## JavaScript deliverable
+-  JavaScript support for future login (see login)
+- JavaScript support for future database data 
+- JavaScript support for future WebSocket
+- JavaScript support for your application's interaction logic (choose character)
