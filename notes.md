@@ -54,16 +54,16 @@ CS 260
 - I added application specific text and images
 - Websocket/database placeholders
 
-## Midterm study guide
+# Midterm study guide
 The following questions are examples of what you may see on the midterm exam:
 
-- In the following code, what does the link element do?
+### In the following code, what does the link element do?
 ```
 The <link> tag defines the relationship between the current document and an external resource.
 The <link> tag is most often used to link to external style sheets or to add a favicon to your website.
 The <link> element is an empty element, it contains attributes only.
 ```
-- In the following code,  what does a div tag do?
+### In the following code,  what does a div tag do?
 ```
 As a "pure" container, the <div> element does not inherently represent anything. Instead, it's used to group content so it can be easily styled using the class or id attributes, marking a section of a document as being written in a different language (using the lang attribute), and so on.
 <div>
@@ -72,31 +72,32 @@ As a "pure" container, the <div> element does not inherently represent anything.
   </p>
 </div>
 ```
-- In the following code, what is the difference between the #title and .grid selector?
+### In the following code, what is the difference between the #title and .grid selector?
 ```
 The CSS grid layout module excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives.
 
 Like tables, grid layout enables an author to align elements into columns and rows. However, many more layouts are either possible or easier with CSS grid than they were with tables. For example, a grid container's child elements could position themselves so they actually overlap and layer, similar to CSS positioned elements.
 
 In CSS, selectors are patterns used to select the element(s) you want to style.
+
 '#' Putting the "#" symbol as the href for something means that it points not to a different URL, but rather to another id or name tag on the same page.
 ```
-- In the following code, what is the difference between padding and margin?
+### In the following code, what is the difference between padding and margin?
 ```
 
 ```
-- Given this HTML and this CSS how will the images be displayed using flex?
+### Given this HTML and this CSS how will the images be displayed using flex?
 ```
 
 ```
-- What does the following padding CSS do?
-- What does the following code using arrow syntax function declaration do?
-- What does the following code using map with an array output?
-- What does the following code output using getElementByID and addEventListener?
-- What does the following line of Javascript do using a # selector?
-- Which of the following are true? (mark all that are true about the DOM) (how does it actually form a heirarcahl representationf of the page)
-- By default, the HTML span element has a default CSS display property value of: 
-- How would you use CSS to change all the div elements to have a background color of red?
+### What does the following padding CSS do?
+### What does the following code using arrow syntax function declaration do?
+### What does the following code using map with an array output?
+### What does the following code output using getElementByID and addEventListener?
+### What does the following line of Javascript do using a # selector?
+### Which of the following are true? (mark all that are true about the DOM) (how does it actually form a heirarcahl representationf of the page)
+### By default, the HTML span element has a default CSS display property value of: 
+### How would you use CSS to change all the div elements to have a background color of red?
 - How would you display an image with a hyperlink in HTML?
 - In the CSS box model, what is the ordering of the box layers starting at the inside and working out?
 - Given the following HTML, what CSS would you use to set the text "troubl" to green and leave the "double" text  unaffected? (use an ID, understand P-tag)
