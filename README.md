@@ -40,3 +40,9 @@ CS 260
 - JavaScript support for future database data 
 - JavaScript support for future WebSocket
 - JavaScript support for your application's interaction logic (choose character)
+## Service deliverable
+- Create an HTTP service using Node.js and Express (see index.js)
+- Frontend served up using express static middleware(see index.js)
+- My frontend calls third party service endpoints(hints.js calls 3 party quote generator)
+- My backend provides service endpoints (see choosecharacter.js and index.js. My website consolelogs the character chosen by the user)
+- My frontend calls your service endpoints (see hints.js and index.js) My website uses the character chosen to change the image. It console logs this on hints.js
