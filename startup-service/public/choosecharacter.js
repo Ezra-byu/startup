@@ -11,14 +11,14 @@ function wizard(){
     document.getElementById('myImage')
     .src="blue_sprite_1.png";
     document.getElementById('message')
-    .innerHTML="Ranger Stats [database plug in]";
+    .innerHTML="Wizard Stats [database plug in]";
     selection = "wizard"
 }
 function ranger(){
     document.getElementById('myImage')
     .src="green.png";
     document.getElementById('message')
-    .innerHTML="Wizard Stats [database plug in]";
+    .innerHTML="Ranger Stats [database plug in]";
     selection = "ranger"
 }
 function barbarian(){
@@ -46,5 +46,5 @@ async function SetCharacter(){
   // localStorage.setItem('character type', JSON.stringify(queue));
 
   //change to the loading page (hints.html)
-  // window.location.href ="hints.html";
+  window.location.href ="hints.html";
 }
