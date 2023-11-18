@@ -1,0 +1,46 @@
+<!DOCTYPE css>
+<html lang="en">
+  <body style="background-color: #543B28;"></body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hints</title>
+    <!-- <link rel="icon" href="favicon.ico" /> -->
+
+    <script src="hints.js"></script>
+
+    <link rel="stylesheet" href="main.css" />
+
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a class="active" href="#">MiniQuest<sup>&reg;</sup></a></li>
+        <li><a href="index.html">Log In</a></li>
+        <li><a href="choosecharacter.html">Choose Character</a></li>
+        <li><a href="hints.html">Hints</a></li>
+        <li><a href="play.html">Play</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <center-box>
+      <div id="loadingImage" class="picture-box"><img width="128px" src="blue_sprite_1.png" alt="random" onclick=getQuote(); /></div>
+      <hint>
+        <div id="quote" class="hint"></div>
+      </hint>
+
+      <div class="button">
+        <button type='button' class="button" onclick=printCharacter();>
+          Debug
+        </button>
+      </div>
+    </center-box>
+    </main>
+
+    <footer>
+      <span class="footer">Author Name(s)</span>
+      <a href="https://github.com/Ezra-byu/startup.git">GitHub</a>
+    </footer>
+  </body>
+</html>
