@@ -46,3 +46,7 @@ CS 260
 - My frontend calls third party service endpoints(hints.js calls 3 party quote generator)
 - My backend provides service endpoints (see choosecharacter.js and index.js. My website consolelogs the character chosen by the user)
 - My frontend calls my service endpoints (see hints.js and index.js) My website uses the character chosen to change the image. It console logs this on hints.js
+## Database deleverable
+- MongoDB Atlas database created (accessed through database.js)
+- Provides backend endpoints for manipulating application data(see functions getCharacter, updateCharacterCount, etc in database.js and index.js)
+-  My app Stores application data in MongoDB
