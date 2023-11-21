@@ -66,8 +66,8 @@ apiRouter.get('/characters', (_req, res) => {
 
 //getCharacterCount
 apiRouter.get('/count', async (_req, res) => {
-  const scores = await DB.getCharacterCount(queue);
-  res.send(scores);
+  const counts = await DB.getCharacterCount(queue); // queue is the character of interest
+  res.send(counts);
 });
 
 // Return the application's default page if the path is unknown
