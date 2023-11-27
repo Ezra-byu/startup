@@ -57,5 +57,5 @@ async function printCharacter(){
 }
 
 
-
+//display quote right off the bat
 displayQuote();
