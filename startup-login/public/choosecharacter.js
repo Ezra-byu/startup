@@ -9,7 +9,7 @@ var selection = ""
 
 function wizard(){
     document.getElementById('myImage')
-    .src="blue_sprite_1.png";
+    .src="blue.png";
     document.getElementById('message')
     .innerHTML="Wizard Stats [database plug in]";
     selection = "wizard"
