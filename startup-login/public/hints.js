@@ -45,11 +45,6 @@ function displayQuote(data) {
 async function printCharacter(){
   let queue = [];
   try{
-    // const response = await fetch('/api/characters');
-    // console.log(response);
-    // queue = await response.json();
-    // console.log('character:');
-    // console.log(queue);
     let response = await fetch('/api/characters');
     let res = await response.json()
     console.log(res.character)
