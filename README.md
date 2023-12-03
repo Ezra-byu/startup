@@ -55,3 +55,8 @@ CS 260
 - It supports existing user authentication (see  Index.js, database.js)
 - It stores and retrieves credentials in MongoDB (see  Index.js, database.js)
 - Restricts application functionality based upon authentication (Choose character page and menu options change based on authentication)
+## Websocket Deliverable
+- my website Backend listens for WebSocket connection (see index.js, peerproxy.js)
+- Frontend makes WebSocket connection (comments sent/recieved and displayed on hints.js and hints.html)
+- Data sent over WebSocket connection (comments sent/recieved and displayed on hints.js and hints.html)
+- WebSocket data displayed in the application interface (see hints.js)
