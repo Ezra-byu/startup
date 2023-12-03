@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body style="background-color: #543B28;"></body>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose Character</title>
+    <link rel="icon" href="/blue.png" />
+
+    <script src="choosecharacter.js"></script>    
+
+    <link rel="stylesheet" href="main.css" />
+
+  </head>
+  <body>
+    <!-- Use header, main, and footer elements to give semantic structure -->
+    <header>
+      <ul>
+        <li><a class="active" href="#">MiniQuest<sup>&reg;</sup></a></li>
+        <li><a href="index.html">Log In</a></li>
+        <li><a href="choosecharacter.html">Choose Character</a></li>
+        <li><a href="hints.html">Hints</a></li>
+        <li><a href="play.html">Play</a></li>
+      </ul>
+    </header>
+
+    <main>
+        <div class="header">
+          <h1>Choose Your Character</h1>
+        </div>
+
+        <center-box>
+          
+          <h1 id="message">
+            Character Stats [database plug in]
+          </h1>
+          <!-- main image -->
+          <img id="myImage" src="blue.png" height="128px">
+          <hr />
+          <div class="button">
+            <button type="button" class="button" onclick=wizard();>
+                Wizard
+            </button>
+            <button type="button" class="button" onclick=ranger();>
+                Ranger
+            </button>
+            <button type="button" class="button" onclick=barbarian();>
+                Barbarian
+          </button>
+          </div>
+
+          <div class="button">
+            <button type='button' class="button" onclick=SetCharacter();>
+              Begin
+            </button>
+          </div>
+
+        </center-box>
+    </main>
+
+    <div id="quote"></div>
+  </body>
+
+  <div class="footer">
+    <p>Author Name(s)</p>
+    <a href="https://github.com/Ezra-byu/startup.git">GitHub</a>
+  </div>
+
+</html>
