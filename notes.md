@@ -698,3 +698,26 @@ function orderFailure(order) {
   order.element.innerHTML = `<span> [${order.id}] &#128544; <b class='failure'>Failure</b>! ${order.error}</span>`;
 }
 ```
+
+# Final study guide
+The following questions are examples of what you may see on the midterm exam:
+
+### 5
+### 9 
+### 12
+Hello Sara
+Hello Cahal 
+Hello Edith
+### 13
+* 1
+* 2
+* 3
+* 4
+* 5
+### 14
+## 15 life cycle (create / destroy) and modified state 
+## 16 life cycle events (rerendering component, when component loaded the first time, when a variable is changed, when component is destroyed, you can use a lifecycle hook to do something with that)
+### 18 manages your node packages, download external packages
+### 19 what command you suseto run serve, metadata
+### 21 runs server
+### 22 
