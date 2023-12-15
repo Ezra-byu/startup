@@ -46,6 +46,7 @@ function App() {
             }
             exact
           />
+          <Route path='/' element={<Login />} />
           <Route path='/choosecharacter' element={<ChooseCharacter />} />
           <Route path='/play' element={<Play userName={userName} />} />
           <Route path='/scores' element={<Scores />} />

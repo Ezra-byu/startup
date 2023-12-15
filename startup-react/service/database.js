@@ -5,9 +5,21 @@ const config = require('./dbConfig.json');
 
 const url = `mongodb+srv://${config.userName}:${config.password}@${config.hostname}`;
 const client = new MongoClient(url);
-const db = client.db('simon');
-const userCollection = db.collection('user');
-const scoreCollection = db.collection('score');
+const db = client.db('Cluster0');
+// const userCollection = db.collection('user');
+// const characterCollection = db.collection('characters');
+
+const userCollection = client.db('miniquest').collection('user');
+const characterCollection = client.db('miniquest').collection('characters');
+
+const wizard = {
+    name: 'Wizard',
+    summary: 'Manipulates arcane energy to both harm and heal',
+    damage: '2',
+    range: '5',
+    speed: '4',
+    special: 'heal'
+};
 
 // This will asynchronously test the connection and exit the process if it fails
 (async function testConnection() {
@@ -40,24 +52,34 @@ async function createUser(email, password) {
   return user;
 }
 
-function addScore(score) {
-  scoreCollection.insertOne(score);
+async function addCharacter(character) {
+  const result = await characterCollection.insertOne(character);
+  return result;
 }
 
-function getHighScores() {
-  const query = { score: { $gt: 0, $lt: 900 } };
-  const options = {
-    sort: { score: -1 },
-    limit: 10,
-  };
-  const cursor = scoreCollection.find(query, options);
-  return cursor.toArray();
+async function updateCharacterCount(character){
+  try {
+      characterCollection.updateOne(
+         { "character" : character },
+         { $inc: { "count" : 1 } }
+      );
+   } catch (error) {
+      print(error);
+   }
+}
+
+async function getCharacterCount(character){
+const query = { name: { character } };
+console.log(query)
+const cursor = characterCollection.find(query, options);
+return cursor
 }
 
 module.exports = {
   getUser,
   getUserByToken,
   createUser,
-  addScore,
-  getHighScores,
+  addCharacter,
+  updateCharacterCount,
+  getCharacterCount,
 };
