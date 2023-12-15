@@ -1,13 +1,18 @@
 import React from 'react';
 
-import { Players } from './players';
-import { SimonGame } from './simonGame';
 
-export function Play(props) {
+// import '../main.css';
+
+export function Play() {
   return (
-    <main className='bg-secondary'>
-      <Players userName={props.userName} />
-      <SimonGame userName={props.userName} />
-    </main>
+      <main>
+        <div class="header">
+          <h1>Play</h1>
+            <p>This brown square is a stand in for what I will do in the future</p>
+          <svg width="400" height="110">
+            <rect width="300" height="100" style="fill:rgba(73, 55, 12, 0.686);stroke-width:3;stroke:rgb(0,0,0)" />
+          </svg>
+        </div>
+      </main>
   );
 }

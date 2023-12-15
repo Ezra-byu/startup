@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 import { Login } from './login/login';
-import { Play } from './play/play';
+import { MyPlay } from './myplay/myplay';
 import { Scores } from './scores/scores';
 import { ChooseCharacter } from './choosecharacter/choosecharacter';
 import { About } from './about/about';
@@ -21,13 +21,10 @@ function App() {
         <header>
           <ul>
             <li><a className="active" href="#">MiniQuest<sup>&reg;</sup></a></li>
-            <li><a href="index.html">Log In</a></li>
-            <li><a href="choosecharacter.html">Choose Character</a></li>
-            <li><a href="hints.html">Hints</a></li>
-            <li><a href="play.html">Play</a></li>
-            <NavLink className='nav-link' to='choosecharacter'>
-                    Choose Character
-                  </NavLink>
+            <li><a href="login">Log In</a></li>
+            <li><a href="hints">Hints</a></li>
+            <li><a href="myplay">Play</a></li>
+            <li><a href="choosecharacter">Choose Character</a></li>
           </ul>
         </header>
 
@@ -48,7 +45,7 @@ function App() {
           />
           <Route path='/' element={<Login />} />
           <Route path='/choosecharacter' element={<ChooseCharacter />} />
-          <Route path='/play' element={<Play userName={userName} />} />
+          <Route path='/myplay' element={<MyPlay />} />
           <Route path='/scores' element={<Scores />} />
           <Route path='/about' element={<About />} />
           <Route path='*' element={<NotFound />} />
