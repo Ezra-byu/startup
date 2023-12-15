@@ -60,3 +60,8 @@ CS 260
 - Frontend makes WebSocket connection (comments sent/recieved and displayed on hints.js and hints.html)
 - Data sent over WebSocket connection (comments sent/recieved and displayed on hints.js and hints.html)
 - WebSocket data displayed in the application interface (see hints.js)
+## ReAct Deliverable
+- My website is Bundled using WebPack and Babel as generated from using create-react-app
+- Has multiple functional react components (see choosecharacter.jsx and myplay.jsx)
+- React router (see app.jsx)
+- React hooks (myplay.jsx uses the React useState with a handleClick)
