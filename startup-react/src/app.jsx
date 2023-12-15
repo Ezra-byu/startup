@@ -22,9 +22,9 @@ function App() {
           <ul>
             <li><a className="active" href="#">MiniQuest<sup>&reg;</sup></a></li>
             <li><a href="login">Log In</a></li>
+            <li><a href="choosecharacter">Choose Character</a></li>
             <li><a href="hints">Hints</a></li>
             <li><a href="myplay">Play</a></li>
-            <li><a href="choosecharacter">Choose Character</a></li>
           </ul>
         </header>
 
